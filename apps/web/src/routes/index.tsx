@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({ component: Home });
 
@@ -9,6 +9,9 @@ function Home() {
       <p className="mt-4 text-lg">
         A cloud coding agent. Pick a repo, describe a task, and watch it work.
       </p>
+      <Link to="/about" className="mt-6 inline-block underline">
+        About this project
+      </Link>
     </div>
   );
 }
