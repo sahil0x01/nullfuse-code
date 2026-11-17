@@ -1,0 +1,6 @@
+{
+  "name": "nullfuse-code",
+  "private": true,
+  "packageManager": "pnpm@12.21.0",
+  "scripts": {}
+}

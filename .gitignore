@@ -1,0 +1,11 @@
+# dependencies, installed by pnpm
+node_modules/
+
+# build output and local environment files
+dist/
+.output/
+.env
+.env.*
+!.env.example
+
+PLAN.md
